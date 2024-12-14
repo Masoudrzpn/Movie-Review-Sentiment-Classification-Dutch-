@@ -27,3 +27,6 @@ To get started with this project, ensure you have Python 3.6+ installed. Then, i
 
 ```bash
 pip install -r requirements.txt
+
+**Note:**  
+The dataset for this project, called **ReviewsTestSet_1.csv**, is provided in the data folder. If you're running the project locally, you'll need to download the dataset and update the file path in the script accordingly.
