@@ -1,12 +1,12 @@
 # Sentiment Classification for Dutch Movie Reviews
 
-This project focuses on building a sentiment classification model specifically designed for Dutch language movie reviews. The goal is to classify movie reviews into three categories: Positive, Average, or Negative. The model processes the provided CSV file of reviews by applying a variety of preprocessing steps, such as language detection, tokenization, sentiment handling, and chunking, to effectively manage long reviews.
+This project focuses on building a sentiment classification model specifically designed for Dutch language movie reviews. The goal is to classify movie reviews into three categories: Positive, Neutral, or Negative. The model processes the provided CSV file of reviews by applying a variety of preprocessing steps, such as language detection, tokenization, sentiment handling, and chunking, to effectively manage long reviews.
 
 ## Problem Description
 
 The dataset consists of movie reviews in Dutch, and the task is to classify these reviews into three sentiment categories:
 - **Positive**
-- **Average**
+- **Neutral**
 - **Negative**
 
 The solution leverages several Python libraries and techniques to handle the reviews efficiently, including language detection, text preprocessing, sentiment analysis, and chunking to address long text inputs.
