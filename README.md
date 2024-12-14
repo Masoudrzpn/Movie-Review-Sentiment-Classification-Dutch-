@@ -21,12 +21,12 @@ The solution leverages several Python libraries and techniques to handle the rev
   
 - **Data Visualization**: The project includes visualizations such as bar charts and pie charts, which display insights on review lengths and sentiment distribution, offering a clear understanding of the dataset.
 
+## Note
+The dataset for this project, called **ReviewsTestSet_1.csv**, is provided in the data folder. If you're running the project locally, you'll need to download the dataset and update the file path in the script accordingly.
+
 ## Installation
 
 To get started with this project, ensure you have Python 3.6+ installed. Then, install the necessary dependencies by running the following command:
 
 ```bash
 pip install -r requirements.txt
-
-**Note:**  
-The dataset for this project, called **ReviewsTestSet_1.csv**, is provided in the data folder. If you're running the project locally, you'll need to download the dataset and update the file path in the script accordingly.
