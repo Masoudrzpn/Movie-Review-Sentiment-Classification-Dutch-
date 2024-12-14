@@ -1,0 +1,10 @@
+torch==2.1.0
+numpy==1.23.1
+spacy==3.5.0
+pandas==1.5.2
+matplotlib==3.7.0
+transformers==4.30.0
+scikit-learn==1.2.2
+emoji==2.2.0
+langdetect==1.0.9
+beautifulsoup4==4.12.2
