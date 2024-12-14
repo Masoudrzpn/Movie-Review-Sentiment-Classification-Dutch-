@@ -1,17 +1,29 @@
-# Movie-Review-Sentiment-Classification-Dutch-
+# Sentiment Classification for Dutch Movie Reviews
 
-This project focuses on building a sentiment classification model for Dutch language movie reviews. The solution classifies movie reviews as either Positive, Average, or Negative. It processes the provided CSV file of reviews and uses several preprocessing steps, including language detection, tokenization, sentiment handling, and chunking to process long reviews.
+This project focuses on building a sentiment classification model specifically designed for Dutch language movie reviews. The goal is to classify movie reviews into three categories: Positive, Average, or Negative. The model processes the provided CSV file of reviews by applying a variety of preprocessing steps, such as language detection, tokenization, sentiment handling, and chunking, to effectively manage long reviews.
 
-Problem Description
-The dataset consists of movie reviews in Dutch, and the task is to classify these reviews into three categories:
+## Problem Description
 
-Positive
-Average
-Negative
-This project uses a series of Python libraries and techniques such as language detection, text preprocessing, sentiment analysis, and chunking to handle long text inputs effectively.
+The dataset consists of movie reviews in Dutch, and the task is to classify these reviews into three sentiment categories:
+- **Positive**
+- **Average**
+- **Negative**
 
-Features
-Language Detection: Reviews are filtered to retain only Dutch-language reviews.
-Text Preprocessing: Reviews are tokenized, lemmatized, and cleaned, removing stop words and handling emojis and negations.
-Sentiment Analysis: Reviews are classified into one of three sentiment categories (Positive, Negative, Neutral) using a zero-shot classification pipeline.
-Data Visualization: The project includes data exploration through bar charts and pie charts, visualizing review lengths and sentiment distribution.
+The solution leverages several Python libraries and techniques to handle the reviews efficiently, including language detection, text preprocessing, sentiment analysis, and chunking to address long text inputs.
+
+## Features
+
+- **Language Detection**: The reviews are filtered to retain only Dutch-language reviews, ensuring the model processes relevant data.
+  
+- **Text Preprocessing**: Reviews undergo tokenization, lemmatization, and cleaning. This step removes stop words, handles emojis, and manages negations to improve the accuracy of sentiment analysis.
+  
+- **Sentiment Analysis**: Using a zero-shot classification pipeline, the reviews are classified into one of three sentiment categories: **Positive**, **Negative**, or **Neutral**.
+  
+- **Data Visualization**: The project includes visualizations such as bar charts and pie charts, which display insights on review lengths and sentiment distribution, offering a clear understanding of the dataset.
+
+## Installation
+
+To get started with this project, ensure you have Python 3.6+ installed. Then, install the necessary dependencies by running the following command:
+
+```bash
+pip install -r requirements.txt
