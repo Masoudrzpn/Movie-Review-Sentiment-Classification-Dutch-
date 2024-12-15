@@ -17,7 +17,7 @@ The solution leverages several Python libraries and techniques to handle the rev
   
 - **Text Preprocessing**: Reviews undergo tokenization, lemmatization, and cleaning. This step removes stop words, handles emojis, and manages negations to improve the accuracy of sentiment analysis.
   
-- **Sentiment Analysis**: Using K-means and zero-shot classification pipeline, the reviews are classified into one of three sentiment categories: **Positive**, **Negative**, or **Neutral**.
+- **Sentiment Analysis**: Using K-means and zero-shot classification pipeline (using **GroNLP/bert-base-dutch-cased**, a pre-trained language model based on BERT, specifically fine-tuned for the Dutch language), the reviews are classified into one of three sentiment categories: **Positive**, **Negative**, or **Neutral**.
   
 - **Data Visualization**: The project includes visualizations such as bar charts and pie charts, which display insights on review lengths and sentiment distribution, offering a clear understanding of the dataset.
 
